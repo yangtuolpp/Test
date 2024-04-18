@@ -21,3 +21,6 @@ if __name__ == '__main__':
     pytest.main(['test_login.py','-s','--alluredir','../report/tmp'])
 #方案二,自动打开浏览器
 # os.system('allure serve ../report/tmp')
+'''
+修改验证代码
+'''
