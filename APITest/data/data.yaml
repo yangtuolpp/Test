@@ -1,0 +1,29 @@
+#yaml测试用例
+#登录模块---列表套字典
+#列表中有6个元素，一个元素就是一个用例
+#字典：一个用例里面：一些详情
+url: /account/login
+method: Post
+detail: 用户名正确，密码为空
+
+headers:
+data:
+ username: sq00001
+ password: ''
+resp:
+ code: 2000
+ msg: 成功
+---
+url: /account/login
+method: Post
+detail: 用户名正确，密码为空
+
+headers:
+data:
+ username: sq00001
+ password: 6452
+resp:
+ code: 2000
+ msg: 成功
+
+
